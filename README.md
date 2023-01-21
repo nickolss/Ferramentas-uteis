@@ -8,6 +8,6 @@ Esse é um repositório com ferramentas úteis para o desenvolvimento de aplica�
 
 ^\d{3}\.\d{3}\.\d{3}-\d{2}$ - Regex de CPF 123.456.789-10
 
-/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/ - Regex de Email email@gmail.com
+^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ - Regex de Email email@gmail.com
 
 ```
