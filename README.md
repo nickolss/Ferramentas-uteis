@@ -10,4 +10,6 @@ Esse é um repositório com ferramentas úteis para o desenvolvimento de aplica�
 
 ^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ - Regex de Email email@gmail.com
 
+/(^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$) - Regex de CNPJ 00.000.000/0000-00
+
 ```
