@@ -4,7 +4,7 @@ let cpf = document.querySelector("#cpf");
 let numeroTelefone = document.querySelector("#telefone");
 
 //Máscara de CPF
-cpf.addEventListener("keypress", () => {
+cpf.addEventListener("keyup", () => {
 	let cpfLength = cpf.value.length;
 	if (cpfLength == 3 || cpfLength == 7) {
 		cpf.value += ".";
@@ -14,7 +14,7 @@ cpf.addEventListener("keypress", () => {
 });
 
 //Máscara de Número de Telefone
-numeroTelefone.addEventListener("keypress", () => {
+numeroTelefone.addEventListener("keyup", () => {
 	let numeroLength = numeroTelefone.value.length;
     if(numeroLength == 0){
         numeroTelefone.value += "("
